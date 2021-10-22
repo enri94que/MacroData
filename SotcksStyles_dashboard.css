@@ -1,0 +1,143 @@
+<style type="text/css">
+
+body {
+  width:100%;
+  height:100%;
+  }
+#row1 {
+  position:relative;
+  background-color:none;
+  width:100%;
+  height:100%;
+  }
+#trading-widget{
+  padding: 0;
+  width: 100%;
+  }
+#row2 {
+  position:relative;
+  background-color:;
+  z-index:;
+  height:100%;
+  top:100%;
+  }
+#row21 {
+  width: 100%;
+  height: 50%;
+  background-color: ;
+  }
+#row22{
+  width: 100%;
+  height: 50%;
+  background-color: ;
+  }
+#graphs{
+	width:  100%;
+	height: 100%;
+	background-color: ;
+  }
+#row3 {
+  position:relative;
+  background-color:white;
+  z-index:;
+  padding: 100%;
+  height: 100%;
+  }
+#widget-chart {
+  position: relative;
+  float: left;
+  top: -20px;
+  width: 100%;
+  height: 400px;
+  }
+#foot {
+  text-align: center;
+  font-size: 20px;
+  position:absolute;
+  font-family: Palatino Linotype,Georgia, "Times New Roman", Times, serif;
+  height: ;
+  width:100%;
+  padding: 10px;
+  }
+
+.chartWithOverlay {
+  position: relative;
+  width: 700px;
+  }
+.overlay {
+
+  height: 20px;
+  position: absolute;
+  top: 20px;   /* chartArea top  */
+  left: 100px; /* chartArea left */
+  font-family: Palatino Linotype;
+  font-weight: 900;
+  font-size: 18px;
+  letter-spacing: .05em; 
+  width: 100%;
+  margin-top: -15px;
+  display: inline-block;
+  }
+#paro_number {
+  height: 20px;
+  position: absolute;
+  top: 20px;   /* chartArea top  */
+  right: 130px; /* chartArea left */
+  width: 20%;
+  margin-top: -15px;
+  float: right;       
+  }
+
+  #pib_number {
+  height: 20px;
+  position: absolute;
+  top: 20px;   /* chartArea top  */
+  right: 130px; /* chartArea left */
+  width: 20%;
+  margin-top: -15px;
+  float: right;}
+
+  #ipc_number {
+  height: 20px;
+  position: absolute;
+  top: 20px;   /* chartArea top  */
+  right: 130px; /* chartArea left */
+  width: 20%;
+  margin-top: -15px;
+  float: right;}
+
+  #icne_number {
+  height: 20px;
+  position: absolute;
+  top: 20px;   /* chartArea top  */
+  right: 130px; /* chartArea left */
+  width: 20%;
+  margin-top: -15px;
+  float: right;}
+
+  #rowdash0 {
+  position:relative;
+  background-color:rowdash1;
+  width:100%;
+  height:100%;
+  margin-left: 55px;
+  }
+  #table2 {
+
+  position: absolute;
+  top: 0px;   /* chartArea top  */
+  left: 70px; /* chartArea left */
+  font-family: Palatino Linotype;
+  font-weight: 900;
+  font-size: 22px;
+  letter-spacing: .05em; 
+  width: 100%;
+  margin-top: -15px;
+  display: inline-block;
+}
+
+  .headerRow{
+  border: 10px;  
+
+  }
+</style>
