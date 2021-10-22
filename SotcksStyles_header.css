@@ -1,0 +1,112 @@
+<style type="text/css">
+ .header {
+    }
+
+
+header { 
+    position: relative;
+    font-family: Palatino Linotype, Arial, sans-serif;
+    font-weight: 900;
+    height: 10%;
+    width:100%;
+    font-size: 20px;
+    line-height: 1.0;
+    background-color:  #A2BFF9;
+    text-align: center;
+    -webkit-box-shadow: 0px 0px 0px 0px rgba(51, 102, 204);
+    -moz-box-shadow: 0px 0px 54px -8px rgba(51, 102, 204);
+    box-shadow: 0px 0px 54px -8px rgba(51, 102, 204);
+    padding-left: 10% !important;
+    }
+
+/* Fondo del Menú */
+nav.navbar.navbar-expand-sm.navbar-light.bg-light.d-flex{  background-color:  #A2BFF9!important; color: black;}
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0);
+    padding: 10px  !important;
+}
+
+
+li.col-2.nav-item{
+    max-width: 100%;
+  }
+
+/* Texto del Menú */
+a.nav-link {color: rgba(0,0,0)!important;
+}
+
+   .col-drop{
+        display: none;
+        position: absolute;
+        background-color:#3366cc ;
+        min-width: 160px;
+        box-shadow: 0px 0px 54px -8px rgba(51, 102, 204);
+        z-index: 1; 
+        color: black; /*bullet points out*/  
+         /* Páges */  
+    }
+
+    .col-drop:hover{
+        display: inline-block;
+        position: relative;
+        background-color:#3366cc ;
+        min-width: 160px;
+        box-shadow: 8px 8px 16px 8px rgba(51, 102, 204);
+        padding: 0px 0px;
+        z-index: 1;  
+        float:left;
+
+    }
+
+    .col-drop {
+     
+    }  
+
+
+----------------------
+         .nav-row{
+      width: 100%;
+      height: 100%;
+}
+    .nav-row:hover {
+      display: block;
+      background-color:3366cc;
+      opacity:1;
+      color: black;
+      width:100%;
+      min-width: 160px;
+      z-index: 1 }
+    .nav li:hover > ul {
+      display: block;
+      opacity:1; 
+      width:100%
+      }
+/* submenú */
+    .nav li ul {
+      display:none;
+    }
+    .nav li ul li {                /*SUBMENUS*/
+      position:relative;
+      right:0px;
+      top:0px;
+      width:100%;}   /* size box */
+    .dropdown {
+        display: block;
+        position: absolute;
+        background-color: black;
+        min-width: 160px;
+        box-shadow: 8px 8px 16px 8px rgba(0,0,0,0);
+        padding: 0px 0px;
+        z-index: 1;     
+    } 
+        .nav-row {
+      float:left;
+      opacity:1;
+      position:relative;
+      top:0;
+      opacity:0.8;
+      font-size: 40px;
+      z-index:1;}   /*posición*/
+
+/* MENU */
+       /* take the bullet points out */
