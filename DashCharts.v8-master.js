@@ -218,7 +218,6 @@ function drawVisualization()
             });
 
 //
-
   var tabledata1 = new google.visualization.DataTable();
 
       tabledata1.addColumn('date','IPCdate');  
@@ -232,7 +231,6 @@ function drawVisualization()
                 
     tabledata1.addRow([IPCdate, IPCnum, j]);
     };
-
 
   var tabledata = new google.visualization.DataTable();
       tabledata.addColumn('date','PIBdater');    
@@ -444,7 +442,7 @@ function drawVisualization()
 
                // Convert the first column from 'date' to 'string'.
               'view': {
-                  'columns':  [1, 2]
+                  'columns':  [1, 2, 4]
                    }
                });
 
