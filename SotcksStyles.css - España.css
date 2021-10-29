@@ -1,0 +1,174 @@
+<style type="text/css">
+
+#row1 {
+  position:relative;
+  background-color:green;
+  width:100%;
+  height:10px;
+}
+
+#titles{
+  font-size:  20px;
+  position: relative;
+  text-align: center;
+  font-family: Palatino Linotype,Georgia, "Times New Roman", Times, serif;
+  top: 10px;
+}
+
+#row2 {
+  top: 20px;
+  position:relative;
+  background-color:;
+  z-index:;
+  height:340px;}
+
+
+#row3 {
+  top: 20px;
+  position:relative;
+  background-color:blue;
+  z-index:;
+  padding: 50px;
+  }
+
+
+.col-3  {
+  font-size: 15px;
+  font-style:
+}
+
+
+#row5 {
+  top: 20px;
+  position:relative;
+  background-color:blue;
+  z-index:;
+  height:100%;}
+
+        #col5 {
+          top: 0px;
+          position:relative;
+          background-color:green;
+          z-index:;
+          height:2000px;
+          width: 25%;}
+
+              #row51{
+                top: 0px;
+                position:relative;
+                background-color:purple;
+                height:400px;
+                width: 100%;
+                z-index: 1}
+              #row52{
+                top: 0px;
+                position:relative;
+                background-color:pink;
+                height:400px;
+                width: 100%;
+                z-index: 1}
+
+
+        #col6 {
+          top: 0px;
+          position:relative;
+          background-color:yellow;
+          z-index:;
+          height:100%px;
+          width: 25%;}
+              #row61{
+                top: 0px;
+                position:relative;
+                background-color:purple;
+                height:400px;
+                width: 100%;
+                z-index: 1}
+              #row62{
+                top: 0px;
+                position:relative;
+                background-color:pink;
+                height:400px;
+                width: 100%;
+                z-index: 1}
+              #row6{
+                top: 0px;
+                position:relative;
+                background-color:pink;
+                height:400px;
+                width: 100%;
+                z-index: 1}                
+
+        #col7 {
+          top: 0px;
+          position:relative;
+          background-color:black;
+          z-index:;
+          height:100%px;
+          width: 25%;}
+              #row71{
+                top: 0px;
+                position:relative;
+                background-color:purple;
+                height:400px;
+                width: 100%;
+                z-index: 1}
+              #row72{
+                top: 0px;
+                position:relative;
+                background-color:pink;
+                height:400px;
+                width: 100%;
+                z-index: 1}
+              #row73{
+                top: 0px;
+                position:relative;
+                background-color:pink;
+                height:450px;
+                width: 100%;
+                z-index: 1}                
+
+        #col8 {
+          top: 0px;
+          position:relative;
+          background-color:grey;
+          z-index:;
+          height:100%px;
+          width: 25%;}
+              #row81{
+                top: 0px;
+                position:relative;
+                background-color:purple;
+                height:400px;
+                width: 100%;
+                z-index: 1}
+              #row82{
+                top: 0px;
+                position:relative;
+                background-color:pink;
+                height:400px;
+                width: 100%;
+                z-index: 1}
+              #row83{
+                top: 0px;
+                position:relative;
+                background-color:pink;
+                height:450px;
+                width: 100%;
+                z-index: 1}
+              #row84{
+                top: 0px;
+                position:relative;
+                background-color:pink;
+                height:400px;
+                width: 100%;
+                z-index: 1}
+              #row85{
+                top: 0px;
+                position:relative;
+                background-color:pink;
+                height:400px;
+                width: 100%;
+                z-index: 1}
+                                          
+
+</style>
