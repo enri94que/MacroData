@@ -404,7 +404,15 @@ function drawVisualization()
                                   'gridlines': {color: gencolor, minSpacing: 130, count: -1},
                                   'minorGridlines': {color: 'white', count:80}                             
                                 },
-                        'legend': {'position': 'none'},
+                        'legend': {'position': 'top'},
+                        'title': 'PIB trimestral',
+                        'titlePosition': 'out',
+                        'titleTextStyle': { 
+                                'color': 'black',
+                                'fontName': 'Palatino Linotype',
+                                'fontSize': 20,
+                                'bold': 'none',
+                                 },
                         'pointSize': 0,
                         'lineWidth': 3,
                         'backgroundColor': {
@@ -467,7 +475,15 @@ function drawVisualization()
                                   'gridlines': {color: gencolor, minSpacing: 130, count: -1},
                                   'minorGridlines': {color: 'white', count:80}                                                          
                                 },
-                        'legend': {'position': 'none'},
+                        'legend': {'position': 'top'},
+                        'title': 'Tasa de Paro',
+                        'titlePosition': 'out',
+                        'titleTextStyle': { 
+                                'color': 'black',
+                                'fontName': 'Palatino Linotype',
+                                'fontSize': 20,
+                                'bold': 'none',
+                                  }
                         'pointSize': 0,
                         'lineWidth': 3,
                         'backgroundColor': {

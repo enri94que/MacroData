@@ -13,7 +13,8 @@ body {
 #trading-widget{
   padding: 0;
   width: 100%;
-  }
+  height: 45px;
+    }
 #row2 {
   position:relative;
   background-color:;
@@ -65,10 +66,8 @@ body {
   width: 700px;
   }
 .overlay {
-
-  height: 20px;
   position: absolute;
-  top: 20px;   /* chartArea top  */
+  top: 10px;   /* chartArea top  */
   left: 100px; /* chartArea left */
   font-family: Palatino Linotype;
   font-weight: 900;
@@ -78,42 +77,23 @@ body {
   margin-top: -15px;
   display: inline-block;
   }
-#paro_number {
+.overlay_title{
+  height: 20px;
+  left: -10px; /* chartArea left */
+  width: 100%;
+  margin-top: -15px;
+  float: right;  
+}
+.number {
   height: 20px;
   position: absolute;
-  top: 20px;   /* chartArea top  */
   right: 130px; /* chartArea left */
   width: 20%;
   margin-top: -15px;
   float: right;       
   }
 
-  #pib_number {
-  height: 20px;
-  position: absolute;
-  top: 20px;   /* chartArea top  */
-  right: 130px; /* chartArea left */
-  width: 20%;
-  margin-top: -15px;
-  float: right;}
 
-  #ipc_number {
-  height: 20px;
-  position: absolute;
-  top: 20px;   /* chartArea top  */
-  right: 130px; /* chartArea left */
-  width: 20%;
-  margin-top: -15px;
-  float: right;}
-
-  #icne_number {
-  height: 20px;
-  position: absolute;
-  top: 20px;   /* chartArea top  */
-  right: 130px; /* chartArea left */
-  width: 20%;
-  margin-top: -15px;
-  float: right;}
 
   #rowdash0 {
   position:relative;
