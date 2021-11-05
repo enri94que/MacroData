@@ -1,0 +1,93 @@
+<style type="text/css">
+ .header {
+
+    }
+header { 
+    position: relative;
+    font-family: Palatino Linotype,Georgia, "Times New Roman", Times, serif;
+    background-color: black;
+    height: 20%;
+    width:100%;
+    font-size: 20px;
+    line-height: 1.0;
+    background-color:  #F1F3F4;
+    text-align: center;
+    -webkit-box-shadow: 0px 0px 54px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 54px -8px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 54px -8px rgba(0,0,0,0.75);
+    }
+    .col-drop{
+        display: none;
+        position: absolute;
+        background-color:#F1F3F4 ;
+        min-width: 160px;
+        box-shadow: 0px 0px 54px -8px rgba(0,0,0,0.75);
+        z-index: 1; 
+        color: white; /*bullet points out*/  
+         /* Páges */  
+    }
+
+    .col-drop:hover{
+        display: inline-block;
+        position: relative;
+        background-color:#F1F3F4 ;
+        min-width: 160px;
+        box-shadow: 8px 8px 16px 8px rgba(0,0,0,0.2);
+        padding: 0px 0px;
+        z-index: 1;  
+        float:left;
+
+    }
+
+    .col-drop {
+     
+    }  
+
+
+----------------------
+         .nav-row{
+      width: 100%;
+      height: 100%;
+}
+    .nav-row:hover {
+      display: block;
+      background-color:black;
+      opacity:1;
+      color: white;
+      width:100%;
+      min-width: 160px;
+      z-index: 1 }
+    .nav li:hover > ul {
+      display: block;
+      opacity:1; 
+      width:100%
+      }
+/* submenú */
+    .nav li ul {
+      display:none;
+    }
+    .nav li ul li {                /*SUBMENUS*/
+      position:relative;
+      right:0px;
+      top:0px;
+      width:100%;}   /* size box */
+    .dropdown {
+        display: block;
+        position: absolute;
+        background-color: black;
+        min-width: 160px;
+        box-shadow: 8px 8px 16px 8px rgba(0,0,0,0.2);
+        padding: 0px 0px;
+        z-index: 1;     
+    } 
+        .nav-row {
+      float:left;
+      opacity:1;
+      position:relative;
+      top:0;
+      opacity:0.8;
+      font-size: 40px;
+      z-index:1;}   /*posición*/
+
+/* MENU */
+       /* take the bullet points out */
