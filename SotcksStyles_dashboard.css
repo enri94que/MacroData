@@ -4,23 +4,6 @@ body {
   width:100%;
   height:100%;
   }
-  
-
-header { 
-  position: relative;
-  font-family: Palatino Linotype, Arial, sans-serif;
-  font-weight: 900;
-  height: 10%;
-  width:100%;
-  font-size: 20px;
-  line-height: 1.0;
-  background-color:  #A2BFF9;
-  text-align: center;
-  -webkit-box-shadow: 0px 0px 0px 0px rgba(51, 102, 204);
-  -moz-box-shadow: 0px 0px 54px -8px rgba(51, 102, 204);
-  box-shadow: 0px 0px 54px -8px rgba(51, 102, 204);
-  padding-left: 10% !important;
-  }
 
 #row1 {
   position:relative;
